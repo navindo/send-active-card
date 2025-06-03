@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.14",
+  "version": "1.0.0",
+  "id": "96461c9b-f1ef-4d85-aeea-3df4b3f7699d",
+  "packageName": "com.abc.teamswellbeing",
+  "developer": {
+    "name": "Teams Well-being hub",
+    "websiteUrl": "https://wellbeingbotui-fmexenfzaqajhhar.southeastasia-01.azurewebsites.net",
+    "privacyUrl": "https://wellbeingbotui-fmexenfzaqajhhar.southeastasia-01.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://wellbeingbotui-fmexenfzaqajhhar.southeastasia-01.azurewebsites.net/terms"
+  },
+  "name": {
+    "short": "Wellbeing App",
+    "full": "UBS Teams Wellbeing App"
+  },
+  "description": {
+    "short": "Helps improve well-being with reminders and resources.",
+    "full": "The UBS Teams Wellbeing app sends reminders, shares resources, and helps manage screen time effectively within Microsoft Teams."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#cc0000",
+   "staticTabs": [
+    {
+      "entityId": "resources",
+      "name": "Well-being Resources",
+      "contentUrl": "https://wellbeingbotui-fmexenfzaqajhhar.southeastasia-01.azurewebsites.net/resources",
+      "scopes": ["personal"]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "96461c9b-f1ef-4d85-aeea-3df4b3f7699d",
+      "scopes": ["personal"],
+      "isNotificationOnly": false,
+      "supportsFiles": false,
+      "commandLists": [
+        {
+          "scopes": ["personal"],
+          "commands": [
+            {
+              "title": "stop notifications",
+              "description": "Stops all break reminder notifications."
+            },
+            {
+              "title": "start notifications",
+              "description": "Resumes break reminder notifications."
+            },
+            {
+              "title": "snooze for 24 hours",
+              "description": "Pauses notifications for 24 hours."
+            },
+            {
+              "title": "resume now",
+              "description": "Resumes notifications immediately."
+            }
+          ]
+        }
+      ],
+      "supportsCalling": false
+    }
+  ],
+  "permissions": [
+    "identity"
+  ],
+  "validDomains": [
+    "wellbeingbotui-fmexenfzaqajhhar.southeastasia-01.azurewebsites.net/",
+    "wellbeingbot-dfcreretembra9bm.southeastasia-01.azurewebsites.net"
+  ]
+}
