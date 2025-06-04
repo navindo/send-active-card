@@ -73,3 +73,40 @@ Invoke-RestMethod -Method POST `
   -Uri "https://wellbeingbot-dfcreretembra9bm.southeastasia-01.azurewebsites.net/api/notify" `
   -ContentType "application/json" `
   -Body $body
+
+
+  
+# Set variables
+$objectId = "4f7c0e8c-2059-4b54-bb11-62e653d1da8c"
+$userName = "Navin"
+
+# Load raw card JSON (as a single string)
+$rawJson = Get-Content -Path "./cards.json" -Raw
+
+# Convert to array of cards
+$cards = $rawJson | ConvertFrom-Json
+
+# Select one at random
+$selectedCard = Get-Random -InputObject $cards
+
+# Convert selected card back to raw string (so we can replace placeholder)
+$selectedCardJson = $selectedCard | ConvertTo-Json -Depth 10
+
+# Replace the placeholder with actual user name
+$personalizedCard = $selectedCardJson -replace '\$\{userName\}', $userName
+
+# Convert back to JSON object
+$cardJson = $personalizedCard | ConvertFrom-Json
+
+# Build the full POST body
+$body = @{
+    ObjectId = $objectId
+    MessageCardJson = $cardJson
+} | ConvertTo-Json -Depth 10
+
+# Send it
+Invoke-RestMethod -Method POST `
+  -Uri "https://wellbeingbot-dfcreretembra9bm.southeastasia-01.azurewebsites.net/api/notify" `
+  -ContentType "application/json" `
+  -Body $body
+
