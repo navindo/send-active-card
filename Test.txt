@@ -1,0 +1,11 @@
+Delivered monitoring and reporting tools like Movius dashboards and Teams call trend reports with a strong focus on client centricity, improving transparency and experience for business users.
+	•	Collaborated across functions and regions — including Voice, Compliance, and Engineering — to drive outcomes through effective connectivity and cross-team alignment.
+	•	Built automation solutions like Amelia workflows and synthetic email monitoring to promote sustainable impact by reducing manual tasks and enhancing service stability.
+	•	Took full accountability with integrity by owning Teams CQD pipeline and Verba reconciliation tasks, ensuring timely delivery of accurate and compliant data.
+	•	Drove collaboration during major initiatives like China user migration and CS transformation, working seamlessly with multiple stakeholders to meet critical timelines.
+	•	Applied innovation through high-impact projects like the Well-being Bot and OpenAI-powered Teams data summarization, turning ideas into tangible UBS value.
+	•	Improved operational efficiency by enhancing the VANT dashboard and deploying automations that helped reduce ticket load and improved L2 team focus.
+	•	Demonstrated inclusive leadership by mentoring team members, sharing knowledge on Power Platform solutions, and consistently contributing to UBS Hackathons.
+
+
+Applied innovation through high-impact projects such as the Teams-based Well-being Bot and custom-built OpenAI-powered tools that analyze Teams call data to drive insights. Developed practical AI prototypes using Azure Cognitive Services, including face recognition, speech-to-text, and custom GPT models — showcasing how emerging technologies can be applied to real UBS scenarios to improve operations, compliance, and employee experience.
