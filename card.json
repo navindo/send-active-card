@@ -1,0 +1,472 @@
+[
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "👋 Hi ${userName}, it's time for an eye break!",
+        "weight": "Bolder",
+        "size": "Medium",
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      },
+      {
+        "type": "Image",
+        "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/eyestrain.jpg",
+        "horizontalAlignment": "Center",
+        "width": "120px",
+        "height": "120px",
+        "spacing": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Look at something 20 feet away for 20 seconds.",
+        "wrap": true,
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Snooze",
+        "data": {
+          "command": "snooze for 1 hour"
+        }
+      },
+      {
+        "type": "Action.Submit",
+        "title": "Notification Settings",
+        "style": "positive",
+        "data": {
+          "command": "settings"
+        }
+      }
+    ]
+  },
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Hi ${userName}, remember to blink!",
+        "weight": "Bolder",
+        "size": "Medium",
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      },
+      {
+        "type": "Image",
+        "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/blink.jpg",
+        "horizontalAlignment": "Center",
+        "width": "120px",
+        "height": "120px",
+        "spacing": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Blink every 4 seconds for a minute to refresh your eyes.",
+        "wrap": true,
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Snooze",
+        "data": {
+          "command": "snooze for 1 hour"
+        }
+      },
+      {
+        "type": "Action.Submit",
+        "title": "Notification Settings",
+        "style": "positive",
+        "data": {
+          "command": "settings"
+        }
+      }
+    ]
+  },
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "${userName}, it’s stretch time!",
+        "weight": "Bolder",
+        "size": "Medium",
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      },
+      {
+        "type": "Image",
+        "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/stretch.jpg",
+        "horizontalAlignment": "Center",
+        "width": "120px",
+        "height": "120px",
+        "spacing": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Stand and stretch your arms and legs for a minute. You'll feel better!",
+        "wrap": true,
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Snooze",
+        "data": {
+          "command": "snooze for 1 hour"
+        }
+      },
+      {
+        "type": "Action.Submit",
+        "title": "Notification Settings",
+        "style": "positive",
+        "data": {
+          "command": "settings"
+        }
+      }
+    ]
+  },
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Hey ${userName}, drink some water!",
+        "weight": "Bolder",
+        "size": "Medium",
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      },
+      {
+        "type": "Image",
+        "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/water.jpg",
+        "horizontalAlignment": "Center",
+        "width": "120px",
+        "height": "120px",
+        "spacing": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Hydration boosts focus and energy. Cheers!",
+        "wrap": true,
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Snooze",
+        "data": {
+          "command": "snooze for 1 hour"
+        }
+      },
+      {
+        "type": "Action.Submit",
+        "title": "Notification Settings",
+        "style": "positive",
+        "data": {
+          "command": "settings"
+        }
+      }
+    ]
+  },
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "${userName}, posture check time!",
+        "weight": "Bolder",
+        "size": "Medium",
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      },
+      {
+        "type": "Image",
+        "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/posture.jpg",
+        "horizontalAlignment": "Center",
+        "width": "120px",
+        "height": "120px",
+        "spacing": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Straighten your back, relax your shoulders, and align your neck.",
+        "wrap": true,
+        "horizontalAlignment": "Center",
+        "spacing": "Medium"
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Snooze",
+        "data": {
+          "command": "snooze for 1 hour"
+        }
+      },
+      {
+        "type": "Action.Submit",
+        "title": "Notification Settings",
+        "style": "positive",
+        "data": {
+          "command": "settings"
+        }
+      }
+    ]
+  },
+  {
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Breathe in, ${userName}...",
+      "weight": "Bolder",
+      "size": "Medium",
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Image",
+      "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/breathe.jpg",
+      "horizontalAlignment": "Center",
+      "width": "120px",
+      "height": "120px",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Inhale for 4 seconds, hold for 4, exhale for 4. Do it 3 times.",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Snooze",
+      "data": {
+        "command": "snooze for 1 hour"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Notification Settings",
+      "style": "positive",
+      "data": {
+        "command": "settings"
+      }
+    }
+  ]
+},
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "${userName}, roll your neck gently.",
+      "weight": "Bolder",
+      "size": "Medium",
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Image",
+      "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/neckroll.jpg",
+      "horizontalAlignment": "Center",
+      "width": "120px",
+      "height": "120px",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Stretch your neck muscles gently side to side for 30 seconds.",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Snooze",
+      "data": {
+        "command": "snooze for 1 hour"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Notification Settings",
+      "style": "positive",
+      "data": {
+        "command": "settings"
+      }
+    }
+  ]
+},
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "${userName}, check your eyes 👁️",
+      "weight": "Bolder",
+      "size": "Medium",
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Image",
+      "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/eyestrain.jpg",
+      "horizontalAlignment": "Center",
+      "width": "120px",
+      "height": "120px",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Close your eyes for 30 seconds and relax. Let them rest.",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Snooze",
+      "data": {
+        "command": "snooze for 1 hour"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Notification Settings",
+      "style": "positive",
+      "data": {
+        "command": "settings"
+      }
+    }
+  ]
+},
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "${userName}, time to rest your wrists",
+      "weight": "Bolder",
+      "size": "Medium",
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Image",
+      "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/wrist.jpg",
+      "horizontalAlignment": "Center",
+      "width": "120px",
+      "height": "120px",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Rotate your wrists and stretch your fingers. Prevent strain!",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Snooze",
+      "data": {
+        "command": "snooze for 1 hour"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Notification Settings",
+      "style": "positive",
+      "data": {
+        "command": "settings"
+      }
+    }
+  ]
+},
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "${userName}, check your lighting 💡",
+      "weight": "Bolder",
+      "size": "Medium",
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    },
+    {
+      "type": "Image",
+      "url": "https://wellbeingbot-dfcreretembra9bm.azurewebsites.net/images/lighting.jpg",
+      "horizontalAlignment": "Center",
+      "width": "120px",
+      "height": "120px",
+      "spacing": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Avoid screen glare. Adjust your lights or reposition your screen.",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "spacing": "Medium"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Snooze",
+      "data": {
+        "command": "snooze for 1 hour"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Notification Settings",
+      "style": "positive",
+      "data": {
+        "command": "settings"
+      }
+    }
+  ]
+}
+]
